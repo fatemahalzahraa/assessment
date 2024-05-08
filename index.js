@@ -62,9 +62,16 @@ console.log(getMenuItemName(menu[0]));
     **********/
 
 function isMenuItemInCategory(menuItem, category) {
-  // Your code here
+  //   menu.category = menuItem.category.filter((c) => {
+  //     if (c == category) {
+  //       return true;
+  //     } else;
+  //     {
+  //       return false;
+  //     }
+  //   });
 }
-// console.log(isMenuItemInCategory(menu[1], "Salad"));
+isMenuItemInCategory(menu[1], "Salad");
 
 /**********
     Question 3:
@@ -122,7 +129,8 @@ function isMenuItemInCategory(menuItem, category) {
     **********/
 
 function addMenuItem(menu, menuItem) {
-  // Your code here
+  menu.push(menuItem);
+  return menu;
 }
 
 // const newMenuItem = {
@@ -133,7 +141,7 @@ function addMenuItem(menu, menuItem) {
 //   ingredients: ["Dough", "Tomato Sauce", "Mozzarella", "Pepperoni"],
 // };
 
-// console.log(addMenuItem(menu, newMenuItem));
+console.log(addMenuItem(menu, newMenuItem));
 
 /**********
     Question 4:
@@ -144,10 +152,9 @@ function addMenuItem(menu, menuItem) {
     ANSWER: 3
     **********/
 
-function countMainCourseItems(menu) {
-  // Your code here
-}
-// console.log(countMainCourseItems(menu));
+function countMainCourseItems(menu) {}
+
+console.log(countMainCourseItems(menu));
 
 /**********
     Question 5: 🌶️
@@ -160,7 +167,9 @@ function countMainCourseItems(menu) {
     **********/
 
 function listMenuItemNamesByCategory(menu, category) {
-  // Your code here
+  //   const itemName []
+  //   menu.forEach (
+  //   )
 }
 // console.log(listMenuItemNamesByCategory(menu, "Main Course"));
 
